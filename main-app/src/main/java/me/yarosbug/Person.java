@@ -7,7 +7,7 @@ public class Person {
     String name;
     int age;
 
-    @ApplyHelloAspectAdvice
+    @Marker
     public static String createHelloWorldString() {
         return "Hello, World!";
     }

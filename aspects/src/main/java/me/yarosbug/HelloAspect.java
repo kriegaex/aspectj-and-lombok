@@ -6,8 +6,7 @@ import org.aspectj.lang.annotation.Aspect;
 
 @Aspect
 public class HelloAspect {
-
-    @Around("@annotation(ApplyHelloAspectAdvice)")
+    @Around("execution(* *(..)) && @annotation(me.yarosbug.Marker)")
     public Object hello(ProceedingJoinPoint joinPoint) {
         return "Hello from Aspect!";
     }

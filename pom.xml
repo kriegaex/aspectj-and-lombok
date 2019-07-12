@@ -11,8 +11,10 @@
     <name>aspectj-and-lombok</name>
 
     <modules>
+        <module>common</module>
         <module>aspects</module>
         <module>main-app</module>
+        <module>main-app-aspectj</module>
     </modules>
 
     <properties>
