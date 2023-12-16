@@ -18,6 +18,8 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.8</version>
+      <!-- Lombok annotations have SOURCE retention, we only need the library during build time -->
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>me.yarosbug</groupId>
