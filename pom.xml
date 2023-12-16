@@ -15,6 +15,7 @@
         <module>aspects</module>
         <module>main-app</module>
         <module>main-app-aspectj</module>
+        <module>app-user</module>
     </modules>
 
     <properties>
